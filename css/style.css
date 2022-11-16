@@ -1,0 +1,139 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(187,187,210,1) 0%, rgba(0,212,255,1) 100%);
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+                            /*----navbar---*/
+
+.nav-item{
+    font-size: 14px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    padding-left: 60px;
+    
+}
+
+.dropdown-menu{
+    font-size: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(187,187,210,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+
+
+                            /*----slider--*/
+
+.carousel-inner{
+    max-height: fit-content;
+}
+
+                            /*----section--*/
+
+section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}              
+                            /*----destacados--*/
+
+
+.destacados{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 70px;
+  }
+
+  @media screen and {max-width: 767px;
+        #titulo-destacado{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+  
+  .destacados:hover {
+    border: 1px solid #777;
+  }
+  
+  .destacados img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .destacado-descripcion{
+    padding: 15px;
+    text-align: center;
+  }
+
+                            /*----footer--*/
+footer{
+    margin-top: 100px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+}
+#footer-index{
+  margin-top: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.foto-nosotros{
+  margin-top: 100px;
+  width: 300;
+  height: 300;
+  display: flex;
+  justify-content: center;
+}
+
+.video{
+  max-width: auto;
+  max-height: auto;
+}
+
+
+
+                            /*--- contacto ---*/
+
+.section-contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.section-contacto p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stylevideo{
+  text-align: center;
+}
+
+                            /*--- sucursales ---*/
