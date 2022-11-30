@@ -1,0 +1,45 @@
+section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}              
+
+.destacados{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 70px;
+        .destacados:hover {
+            border: 1px solid #777;
+        }
+        .destacados img {
+            width: 100%;
+            height: auto;      
+        }
+        .destacados img {
+            width: 100%;
+            height: auto;
+        }    
+        .destacado-descripcion{
+            padding: 7px + 8px;
+            text-align: center;
+          }
+}    
+    
+@media screen and (max-width: 767px){
+    #titulo-destacado{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}  
+
+
+   
